@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'shubham',
-  domain: 'shubhxms.github.io',
+  domain: 'https://shubhxms.github.io',
   author: 'shubham',
 
   // open graph metadata (optional)
