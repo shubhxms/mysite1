@@ -1,7 +1,7 @@
-import type { getStaticProps } from 'next'
+import type { GetStaticProps } from 'next'
 import { host } from 'lib/config'
 
-export const getStaticProps: getStaticProps = async ({ req, res }) => {
+export const getStaticProps: GetStaticProps = async ({ req, res }) => {
   if (req.method !== 'GET') {
     res.statusCode = 405
     res.setHeader('Content-Type', 'application/json')
