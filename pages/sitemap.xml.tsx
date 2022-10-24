@@ -1,9 +1,9 @@
-import type { GetServerSideProps } from 'next'
+import type { GetStaticProps } from 'next'
 import type { SiteMap } from 'lib/types'
 import { host } from 'lib/config'
 import { getSiteMap } from 'lib/get-site-map'
 
-export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
+export const getStaticProps: GetStaticProps = async ({ req, res }) => {
   if (req.method !== 'GET') {
     res.statusCode = 405
     res.setHeader('Content-Type', 'application/json')
