@@ -53,11 +53,15 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'About',
+      title: 'shelf',
       pageId: '76b900671b174aad99a709666db4baa4'
     },
     {
-      title: 'Contact',
+      title: 'craft',
+      pageId: '34530d5aa5ae410e95c5ac997cb482a0'
+    },
+    {
+      title: 'contact',
       pageId: 'd2ac3c3aef0f40cea1b6dac2d7c65a94'
     }
   ]
