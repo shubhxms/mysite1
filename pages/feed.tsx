@@ -13,14 +13,14 @@ import { getSiteMap } from 'lib/get-site-map'
 import { getCanonicalPageUrl } from 'lib/map-page-url'
 import { getSocialImageUrl } from 'lib/get-social-image-url'
 
-export const getStaticProps: GetStaticProps = async ({ req, res }) => {
-  if (req.method !== 'GET') {
-    res.statusCode = 405
-    res.setHeader('Content-Type', 'application/json')
-    res.write(JSON.stringify({ error: 'method not allowed' }))
-    res.end()
-    return { props: {} }
-  }
+export const getStaticProps: GetStaticProps = async ({ res }) => {
+//   if (req.method !== 'GET') {
+//     res.statusCode = 405
+//     res.setHeader('Content-Type', 'application/json')
+//     res.write(JSON.stringify({ error: 'method not allowed' }))
+//     res.end()
+//     return { props: {} }
+//   }
 
   const siteMap = await getSiteMap()
   const ttlMinutes = 24 * 60 // 24 hours
