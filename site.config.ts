@@ -58,7 +58,7 @@ export default siteConfig({
     },
     {
       title: 'craft',
-      pageId: '888037770e204566bbe49f5f4a7ad8f0?v=4d0fafbcff7547499ea58bdc9d24080d'
+      pageId: 'dc177593c98d42d2b774bf27944f8c7f'
     },
     {
       title: 'contact',
