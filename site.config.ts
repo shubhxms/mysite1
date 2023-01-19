@@ -54,15 +54,15 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'shelf',
-      pageId: '76b900671b174aad99a709666db4baa4'
+      pageId: 'a845a95dd6d541ba8d8658221343d728'
     },
     {
       title: 'craft',
-      pageId: 'dc177593c98d42d2b774bf27944f8c7f'
+      pageId: '5b8a50f92a67460880eb84cbdfc66de3'
     },
     {
       title: 'contact',
-      pageId: 'd2ac3c3aef0f40cea1b6dac2d7c65a94'
+      pageId: 'b0ef3bd6de264cc8a3da38c48d55bc12'
     }
   ]
 })
